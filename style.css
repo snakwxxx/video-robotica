@@ -1,1 +1,27 @@
+body {
+  color: white; /* deixa o texto branco */
+  background: black; /* deixa o fundo preto */
+  margin: 0px; /* cria um espaço invisivel para distanciar de outros elementos */
+  font-family: "Chakra Petch", sans-serif; /* usa a fonte "Chakra Petch" ou se não tiver, usa "sans-serif" */
+  margin-bottom: 100px; /* adiciona 100px de espaço invisivel na parte de baixo da pagina */
+}
 
+.chamada {
+  background: rgb(184, 156, 213);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamada-texto {
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 200px;
+}
