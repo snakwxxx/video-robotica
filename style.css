@@ -1,27 +1,28 @@
-body {
-  color: white; /* deixa o texto branco */
-  background: black; /* deixa o fundo preto */
-  margin: 0px; /* cria um espaço invisivel para distanciar de outros elementos */
-  font-family: "Chakra Petch", sans-serif; /* usa a fonte "Chakra Petch" ou se não tiver, usa "sans-serif" */
-  margin-bottom: 100px; /* adiciona 100px de espaço invisivel na parte de baixo da pagina */
+body { 
+  color: white; /define cor da fonte/
+  background-color: black; /define a cor do fundo/
+  margin: 100px; /define a margem dos itens para todos os lados/
+  font-family: "Chakra Petch", sans-serif; /define a fonte dos itens de texto/
+  margin-bottom: 1000px; /define a margem dos itens para BAIXO/
+  margin-top: 10px;
 }
 
 .chamada {
-  background: rgb(184, 156, 213);
-  padding-bottom: 80px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
+  background: rgb(184, 146, 213); /cor de fundo/
+  padding-bottom: 80px; /espaçamento interno dos itens em relação á base/
+  padding-top: 80px; /espaçamento interno dps itens em relação ao topo/
+  display: flex; /jeito que os itens se comportam na tela/
+  justify-content: center; /alinhamento horizontal dos itens/
 }
 
 .chamada-texto {
-  margin-right: 5%;
+  margin-right: 5%; /define a margem para o lado direito/
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 40px; /tamanho da fonte/
 }
 
 p {
-  font-size: 200px;
+  font-size: 20px; /tamanho da fonte/
 }
